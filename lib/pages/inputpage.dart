@@ -21,7 +21,7 @@ class _InputPageState extends State<InputPage> {
         title: const Text("Input Widget"),
         backgroundColor: Color.fromARGB(255, 191, 235, 252),
       ),
-      body: Column(
+      body: ListView(
         children: [
           radioMenulist("ก๋วยเตี๋ยว", "60 บาท"),
           radioMenulist("คะน้าหมูกรอบ", "55 บาท"),
