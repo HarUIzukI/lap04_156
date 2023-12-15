@@ -31,6 +31,7 @@ class _InputPageState extends State<InputPage> {
           Divider(),
           CheckboxListTile(
             title: Text("ไข่ดาว"),
+            secondary: Text("10 บาท"),
             controlAffinity: ListTileControlAffinity.leading,
             value: staregg,
             onChanged: (value) {
@@ -52,6 +53,7 @@ class _InputPageState extends State<InputPage> {
           ),
           CheckboxListTile(
             title: Text("หมูทอด"),
+            secondary: Text("15 บาท"),
             controlAffinity: ListTileControlAffinity.leading,
             value: pork,
             onChanged: (value) {
@@ -62,6 +64,7 @@ class _InputPageState extends State<InputPage> {
           ),
           CheckboxListTile(
             title: Text("ไก่ทอด"),
+            secondary: Text("15 บาท"),
             controlAffinity: ListTileControlAffinity.leading,
             value: chick,
             onChanged: (value) {
@@ -72,6 +75,7 @@ class _InputPageState extends State<InputPage> {
           ),
           CheckboxListTile(
             title: Text("พริก"),
+            secondary: Text("5 บาท"),
             controlAffinity: ListTileControlAffinity.leading,
             value: chilly,
             onChanged: (value) {
